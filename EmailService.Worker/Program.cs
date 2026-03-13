@@ -1,4 +1,4 @@
-using EmailService.Worker;
+﻿using EmailService.Worker;
 
 var builder = Host.CreateApplicationBuilder(args);
 builder.Services.AddHostedService<Worker>();
