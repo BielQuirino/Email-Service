@@ -50,7 +50,7 @@ public class Worker : BackgroundService
         string sendGridKey = _configuration["SendGrid:ApiKey"];
         var client = new SendGridClient(sendGridKey);
 
-        var from = new EmailAddress("pomboamericano308@gmail.com", "Eagle.IA"); 
+        var from = new EmailAddress("registeredEmail@test.com", "Eagle.IA"); 
         var to = new EmailAddress(request.To);
         var msg = MailHelper.CreateSingleEmail(from, to, request.Subject, request.Body, request.Body);
 
