@@ -1,4 +1,4 @@
-# 📧 Async Email Microservice - Eagle.IA 🦅
+# 📧 Async Email Microservice 
 
 [![.NET](https://img.shields.io/badge/.NET-8.0-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
 [![Azure Service Bus](https://img.shields.io/badge/Azure_Service_Bus-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)](https://azure.microsoft.com/)
@@ -7,7 +7,7 @@
 
 An Event-Driven asynchronous email microservice built with **.NET (C#)**, **Azure Service Bus**, and **SendGrid**. 
 
-Designed for the **Eagle.IA** platform, this service ensures that sending AI-generated meeting summaries does not block the main application thread, providing system scalability, decoupling, and high resilience.
+This service ensures that sending AI-generated meeting summaries does not block the main application thread, providing system scalability, decoupling, and high resilience.
 
 ## 🚀 Architecture & Flow
 
