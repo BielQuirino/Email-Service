@@ -9,7 +9,7 @@ An Event-Driven asynchronous email microservice built with **.NET (C#)**, **Azur
 
 This service ensures that sending AI-generated meeting summaries does not block the main application thread, providing system scalability, decoupling, and high resilience.
 
-## 🚀 Architecture & Flow
+## 🚀 Architecture & Flow.
 
 This system solves the classic Background Jobs system design problem by decoupling responsibilities into two distinct applications:
 
