@@ -5,7 +5,7 @@
 [![SendGrid](https://img.shields.io/badge/SendGrid-009DD9?style=for-the-badge&logo=twilio&logoColor=white)](https://sendgrid.com/)
 [![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)](https://docs.microsoft.com/en-us/dotnet/csharp/)
 
-An Event-Driven asynchronous email microservice built with **.NET (C#)**, **Azure Service Bus**, and **SendGrid**.  
+An Event-Driven asynchronous email microservice built with **.NET (C#)**, **Azure Service Bus**, and **SendGrid**. 
 
 This service ensures that sending AI-generated meeting summaries does not block the main application thread, providing system scalability, decoupling, and high resilience.
 
